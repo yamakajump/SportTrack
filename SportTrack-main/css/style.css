@@ -1,6 +1,12 @@
+
+
+input:invalid {
+    background: rgba(68, 0, 0, 0.188);
+}
+  
 /********** Template CSS **********/
 :root {
-    --primary: #EB1616;
+    --primary: #6d010131;
     --secondary: #191C24;
     --light: #6C7293;
     --dark: #000000;

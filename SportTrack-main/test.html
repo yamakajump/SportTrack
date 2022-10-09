@@ -1,0 +1,20 @@
+<html>
+<head>
+<script>
+	function validerMonFormulaire(monFormulaire) {
+		// Traiter les éléments du formulaire
+		if(monFormulaire.nom != "") {
+            console.log(true + "(false)");
+			return false;
+        }else {
+            console.log(false);
+            return false;
+        }
+	}
+</script>
+</head>
+<form method="post" onsubmit="return validerMonFormulaire(this);">
+	<input type="text" name="nom" value=""/>
+	<input type="submit" name="submit" value="Valider ce formulaire !"/>
+</form>
+</html>
